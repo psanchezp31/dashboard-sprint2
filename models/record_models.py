@@ -7,12 +7,12 @@ from datetime import date
 class RecordIn (BaseModel):
     categoria: str
     tipo: str 
-    cantidad: int
+    cantidad: float
     fecha_registro: date #revise
 
 class RecordOut (BaseModel):
     id: int = 0 
     categoria: str
     tipo: str 
-    cantidad: int
+    cantidad: float
     fecha_registro: date #revise
